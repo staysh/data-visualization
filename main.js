@@ -25,6 +25,6 @@ function setup () {
         .attr("r", row => row.h)
         .attr("fill", row => row.c);
     
-    div.append(svg.node())
+    div.html(svg.node())
 }
 
