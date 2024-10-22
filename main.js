@@ -28,6 +28,8 @@ function setup () {
     // what is going on...
     console.log(svg.node())
     
+    // appendChild is a javascript method not d3.
+    // this is just one way to get the update to work.
     div.node().appendChild(svg.node())
 }
 
